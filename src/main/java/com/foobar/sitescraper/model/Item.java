@@ -9,8 +9,7 @@ public class Item {
     private String status;
     private String url;
 
-    public Item(int id, String name, BigDecimal price, String status, String url) {
-        this.id = id;
+    public Item(String name, BigDecimal price, String url, String status) {
         this.name = name;
         this.price = price;
         this.status = status;

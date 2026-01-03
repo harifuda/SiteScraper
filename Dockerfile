@@ -8,4 +8,6 @@ COPY snapshots ./snapshots
 
 RUN mvn install
 
+COPY wait-for-it.sh .
+
 CMD ["mvn", "exec:java", "-Dexec.mainClass=com.foobar.sitescraper.App"]
