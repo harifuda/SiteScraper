@@ -1,5 +1,0 @@
-services:
-  scraper:
-    build: .
-    env_file:
-      - .env
